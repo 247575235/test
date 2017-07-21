@@ -32,5 +32,7 @@ class MainActivity : AppCompatActivity() {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 
-    
+    override fun onRestart() {
+        super.onRestart()
+    }
 }
