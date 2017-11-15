@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 return@OnNavigationItemSelectedListener true
             }
         }
-        false false
+        false123
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
